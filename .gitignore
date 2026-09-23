@@ -1,0 +1,35 @@
+# Local Python environment and generated caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# Unpublished paper and local document build/QA outputs
+/paper/
+/output/
+/tmp/
+
+# Downloaded weights and generated adapter directories (keep run evidence)
+/models/
+/results/**/adapter/
+/results/**/epoch_*/
+*.safetensors
+*.pt
+*.pth
+
+# SQLite fixtures are recreated by prepare_data.py
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Local credentials and editor/OS files
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

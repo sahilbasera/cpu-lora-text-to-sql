@@ -1,0 +1,49 @@
+{
+  "total": 42,
+  "correct": 38,
+  "accuracy": 0.9047619047619048,
+  "statuses": {
+    "correct": 38,
+    "result_mismatch": 4
+  },
+  "exact_string_matches": 1,
+  "token_limit_count": 0,
+  "generation_seconds": 83.18344740034081,
+  "by_family": {
+    "amount_ge": {
+      "correct": 6,
+      "total": 6,
+      "accuracy": 1.0
+    },
+    "amount_gt": {
+      "correct": 6,
+      "total": 6,
+      "accuracy": 1.0
+    },
+    "amount_le": {
+      "correct": 5,
+      "total": 6,
+      "accuracy": 0.8333333333333334
+    },
+    "amount_lt": {
+      "correct": 6,
+      "total": 6,
+      "accuracy": 1.0
+    },
+    "amount_range": {
+      "correct": 3,
+      "total": 6,
+      "accuracy": 0.5
+    },
+    "country_amount_gt": {
+      "correct": 6,
+      "total": 6,
+      "accuracy": 1.0
+    },
+    "country_eq": {
+      "correct": 6,
+      "total": 6,
+      "accuracy": 1.0
+    }
+  }
+}

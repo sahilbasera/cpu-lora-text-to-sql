@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 695" width="800" height="695" role="img" aria-labelledby="title desc">
+  <title id="title">Where the gains happened</title>
+  <desc id="desc">Country equality: base 8, LoRA 12 of 12; Amount ≤ threshold: base 5, LoRA 8 of 12; Amount ≥ threshold: base 7, LoRA 7 of 12; Amount &lt; threshold: base 7, LoRA 7 of 12; Amount &gt; threshold: base 12, LoRA 12 of 12; Inclusive range: base 12, LoRA 12 of 12; Country + amount: base 12, LoRA 12 of 12</desc>
+  <rect width="800" height="695" fill="#ffffff" />
+  <text x="32" y="40" fill="#172b3a" font-size="24" font-family="Arial, sans-serif" text-anchor="start" font-weight="600">Where the gains happened</text>
+  <text x="32" y="67" fill="#526374" font-size="16" font-family="Arial, sans-serif" text-anchor="start" font-weight="400">Final test · 12 questions per family</text>
+  <line x1="282.0" y1="110" x2="282.0" y2="586" stroke="#dce4ea" stroke-width="1" />
+  <text x="282.0" y="610" fill="#526374" font-size="14" font-family="Arial, sans-serif" text-anchor="middle" font-weight="400">0</text>
+  <line x1="391.0" y1="110" x2="391.0" y2="586" stroke="#dce4ea" stroke-width="1" />
+  <text x="391.0" y="610" fill="#526374" font-size="14" font-family="Arial, sans-serif" text-anchor="middle" font-weight="400">3</text>
+  <line x1="500.0" y1="110" x2="500.0" y2="586" stroke="#dce4ea" stroke-width="1" />
+  <text x="500.0" y="610" fill="#526374" font-size="14" font-family="Arial, sans-serif" text-anchor="middle" font-weight="400">6</text>
+  <line x1="609.0" y1="110" x2="609.0" y2="586" stroke="#dce4ea" stroke-width="1" />
+  <text x="609.0" y="610" fill="#526374" font-size="14" font-family="Arial, sans-serif" text-anchor="middle" font-weight="400">9</text>
+  <line x1="718.0" y1="110" x2="718.0" y2="586" stroke="#dce4ea" stroke-width="1" />
+  <text x="718.0" y="610" fill="#526374" font-size="14" font-family="Arial, sans-serif" text-anchor="middle" font-weight="400">12</text>
+  <text x="32" y="136" fill="#172b3a" font-size="16" font-family="Arial, sans-serif" text-anchor="start" font-weight="400">Country equality</text>
+  <text x="272" y="127" fill="#526374" font-size="14" font-family="Arial, sans-serif" text-anchor="end" font-weight="400">Base</text>
+  <rect x="282" y="113" width="290.6666666666667" height="18" fill="#64748b" />
+  <text x="580.6666666666667" y="127" fill="#172b3a" font-size="14" font-family="Arial, sans-serif" text-anchor="start" font-weight="400">8/12</text>
+  <text x="272" y="152" fill="#526374" font-size="14" font-family="Arial, sans-serif" text-anchor="end" font-weight="400">LoRA</text>
+  <rect x="282" y="138" width="436.0" height="18" fill="#0f766e" />
+  <text x="726.0" y="152" fill="#172b3a" font-size="14" font-family="Arial, sans-serif" text-anchor="start" font-weight="400">12/12</text>
+  <text x="32" y="204" fill="#172b3a" font-size="16" font-family="Arial, sans-serif" text-anchor="start" font-weight="400">Amount ≤ threshold</text>
+  <text x="272" y="195" fill="#526374" font-size="14" font-family="Arial, sans-serif" text-anchor="end" font-weight="400">Base</text>
+  <rect x="282" y="181" width="181.66666666666666" height="18" fill="#64748b" />
+  <text x="471.66666666666663" y="195" fill="#172b3a" font-size="14" font-family="Arial, sans-serif" text-anchor="start" font-weight="400">5/12</text>
+  <text x="272" y="220" fill="#526374" font-size="14" font-family="Arial, sans-serif" text-anchor="end" font-weight="400">LoRA</text>
+  <rect x="282" y="206" width="290.6666666666667" height="18" fill="#0f766e" />
+  <text x="580.6666666666667" y="220" fill="#172b3a" font-size="14" font-family="Arial, sans-serif" text-anchor="start" font-weight="400">8/12</text>
+  <text x="32" y="272" fill="#172b3a" font-size="16" font-family="Arial, sans-serif" text-anchor="start" font-weight="400">Amount ≥ threshold</text>
+  <text x="272" y="263" fill="#526374" font-size="14" font-family="Arial, sans-serif" text-anchor="end" font-weight="400">Base</text>
+  <rect x="282" y="249" width="254.33333333333334" height="18" fill="#64748b" />
+  <text x="544.3333333333334" y="263" fill="#172b3a" font-size="14" font-family="Arial, sans-serif" text-anchor="start" font-weight="400">7/12</text>
+  <text x="272" y="288" fill="#526374" font-size="14" font-family="Arial, sans-serif" text-anchor="end" font-weight="400">LoRA</text>
+  <rect x="282" y="274" width="254.33333333333334" height="18" fill="#0f766e" />
+  <text x="544.3333333333334" y="288" fill="#172b3a" font-size="14" font-family="Arial, sans-serif" text-anchor="start" font-weight="400">7/12</text>
+  <text x="32" y="340" fill="#172b3a" font-size="16" font-family="Arial, sans-serif" text-anchor="start" font-weight="400">Amount &lt; threshold</text>
+  <text x="272" y="331" fill="#526374" font-size="14" font-family="Arial, sans-serif" text-anchor="end" font-weight="400">Base</text>
+  <rect x="282" y="317" width="254.33333333333334" height="18" fill="#64748b" />
+  <text x="544.3333333333334" y="331" fill="#172b3a" font-size="14" font-family="Arial, sans-serif" text-anchor="start" font-weight="400">7/12</text>
+  <text x="272" y="356" fill="#526374" font-size="14" font-family="Arial, sans-serif" text-anchor="end" font-weight="400">LoRA</text>
+  <rect x="282" y="342" width="254.33333333333334" height="18" fill="#0f766e" />
+  <text x="544.3333333333334" y="356" fill="#172b3a" font-size="14" font-family="Arial, sans-serif" text-anchor="start" font-weight="400">7/12</text>
+  <text x="32" y="408" fill="#172b3a" font-size="16" font-family="Arial, sans-serif" text-anchor="start" font-weight="400">Amount &gt; threshold</text>
+  <text x="272" y="399" fill="#526374" font-size="14" font-family="Arial, sans-serif" text-anchor="end" font-weight="400">Base</text>
+  <rect x="282" y="385" width="436.0" height="18" fill="#64748b" />
+  <text x="726.0" y="399" fill="#172b3a" font-size="14" font-family="Arial, sans-serif" text-anchor="start" font-weight="400">12/12</text>
+  <text x="272" y="424" fill="#526374" font-size="14" font-family="Arial, sans-serif" text-anchor="end" font-weight="400">LoRA</text>
+  <rect x="282" y="410" width="436.0" height="18" fill="#0f766e" />
+  <text x="726.0" y="424" fill="#172b3a" font-size="14" font-family="Arial, sans-serif" text-anchor="start" font-weight="400">12/12</text>
+  <text x="32" y="476" fill="#172b3a" font-size="16" font-family="Arial, sans-serif" text-anchor="start" font-weight="400">Inclusive range</text>
+  <text x="272" y="467" fill="#526374" font-size="14" font-family="Arial, sans-serif" text-anchor="end" font-weight="400">Base</text>
+  <rect x="282" y="453" width="436.0" height="18" fill="#64748b" />
+  <text x="726.0" y="467" fill="#172b3a" font-size="14" font-family="Arial, sans-serif" text-anchor="start" font-weight="400">12/12</text>
+  <text x="272" y="492" fill="#526374" font-size="14" font-family="Arial, sans-serif" text-anchor="end" font-weight="400">LoRA</text>
+  <rect x="282" y="478" width="436.0" height="18" fill="#0f766e" />
+  <text x="726.0" y="492" fill="#172b3a" font-size="14" font-family="Arial, sans-serif" text-anchor="start" font-weight="400">12/12</text>
+  <text x="32" y="544" fill="#172b3a" font-size="16" font-family="Arial, sans-serif" text-anchor="start" font-weight="400">Country + amount</text>
+  <text x="272" y="535" fill="#526374" font-size="14" font-family="Arial, sans-serif" text-anchor="end" font-weight="400">Base</text>
+  <rect x="282" y="521" width="436.0" height="18" fill="#64748b" />
+  <text x="726.0" y="535" fill="#172b3a" font-size="14" font-family="Arial, sans-serif" text-anchor="start" font-weight="400">12/12</text>
+  <text x="272" y="560" fill="#526374" font-size="14" font-family="Arial, sans-serif" text-anchor="end" font-weight="400">LoRA</text>
+  <rect x="282" y="546" width="436.0" height="18" fill="#0f766e" />
+  <text x="726.0" y="560" fill="#172b3a" font-size="14" font-family="Arial, sans-serif" text-anchor="start" font-weight="400">12/12</text>
+  <text x="500" y="638" fill="#526374" font-size="16" font-family="Arial, sans-serif" text-anchor="middle" font-weight="400">Correct answers · higher is better</text>
+  <text x="32" y="677" fill="#526374" font-size="14" font-family="Arial, sans-serif" text-anchor="start" font-weight="400">Equal family totals can hide individual fixes and regressions.</text>
+</svg>

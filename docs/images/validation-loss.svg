@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 405" width="800" height="405" role="img" aria-labelledby="title desc">
+  <title id="title">Why epoch 1 was selected</title>
+  <desc id="desc">Epoch 1: 0.009512; Epoch 2: 0.009696; Epoch 3: 0.010315. The zoomed vertical axis does not start at zero.</desc>
+  <rect width="800" height="405" fill="#ffffff" />
+  <text x="32" y="40" fill="#172b3a" font-size="24" font-family="Arial, sans-serif" text-anchor="start" font-weight="600">Why epoch 1 was selected</text>
+  <text x="32" y="67" fill="#526374" font-size="16" font-family="Arial, sans-serif" text-anchor="start" font-weight="400">Validation loss · lower is better · post-training zoom</text>
+  <line x1="105" y1="289.0" x2="749" y2="289.0" stroke="#dce4ea" stroke-width="1" />
+  <text x="93" y="294.0" fill="#526374" font-size="14" font-family="Arial, sans-serif" text-anchor="end" font-weight="400">0.0092</text>
+  <line x1="105" y1="228.66666666666669" x2="749" y2="228.66666666666669" stroke="#dce4ea" stroke-width="1" />
+  <text x="93" y="233.66666666666669" fill="#526374" font-size="14" font-family="Arial, sans-serif" text-anchor="end" font-weight="400">0.0097</text>
+  <line x1="105" y1="168.33333333333334" x2="749" y2="168.33333333333334" stroke="#dce4ea" stroke-width="1" />
+  <text x="93" y="173.33333333333334" fill="#526374" font-size="14" font-family="Arial, sans-serif" text-anchor="end" font-weight="400">0.0102</text>
+  <line x1="105" y1="108.0" x2="749" y2="108.0" stroke="#dce4ea" stroke-width="1" />
+  <text x="93" y="113.0" fill="#526374" font-size="14" font-family="Arial, sans-serif" text-anchor="end" font-weight="400">0.0106</text>
+  <text x="32" y="93" fill="#526374" font-size="14" font-family="Arial, sans-serif" text-anchor="start" font-weight="400">Loss</text>
+  <polyline points="140.0,248.77777777777777 427.0,225.6696817911584 714.0,148.22222222222223" fill="none" stroke="#0f766e" stroke-width="3" />
+  <circle cx="140.0" cy="248.77777777777777" r="7" fill="#0f766e" />
+  <text x="140.0" y="231.77777777777777" fill="#172b3a" font-size="16" font-family="Arial, sans-serif" text-anchor="middle" font-weight="400">0.009512</text>
+  <text x="140.0" y="316" fill="#172b3a" font-size="16" font-family="Arial, sans-serif" text-anchor="middle" font-weight="400">Epoch 1</text>
+  <text x="140.0" y="275.77777777777777" fill="#0f766e" font-size="16" font-family="Arial, sans-serif" text-anchor="middle" font-weight="600">Selected</text>
+  <circle cx="427.0" cy="225.6696817911584" r="5" fill="#0f766e" />
+  <text x="427.0" y="208.6696817911584" fill="#172b3a" font-size="16" font-family="Arial, sans-serif" text-anchor="middle" font-weight="400">0.009696</text>
+  <text x="427.0" y="316" fill="#172b3a" font-size="16" font-family="Arial, sans-serif" text-anchor="middle" font-weight="400">Epoch 2</text>
+  <circle cx="714.0" cy="148.22222222222223" r="5" fill="#0f766e" />
+  <text x="714.0" y="131.22222222222223" fill="#172b3a" font-size="16" font-family="Arial, sans-serif" text-anchor="middle" font-weight="400">0.010315</text>
+  <text x="714.0" y="316" fill="#172b3a" font-size="16" font-family="Arial, sans-serif" text-anchor="middle" font-weight="400">Epoch 3</text>
+  <text x="32" y="360" fill="#172b3a" font-size="16" font-family="Arial, sans-serif" text-anchor="start" font-weight="400">Before training: 0.189535</text>
+  <text x="32" y="386" fill="#526374" font-size="14" font-family="Arial, sans-serif" text-anchor="start" font-weight="400">Zoomed loss axis, not accuracy. Test accuracy was measured only for the selected adapter.</text>
+</svg>

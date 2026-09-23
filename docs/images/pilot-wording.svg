@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 340" width="800" height="340" role="img" aria-labelledby="title desc">
+  <title id="title">Clearer questions, unchanged model</title>
+  <desc id="desc">Original wording: 38/42, 90.5%; Clarified range wording: 41/42, 97.6%. Pilot and final test contain different questions.</desc>
+  <rect width="800" height="340" fill="#ffffff" />
+  <text x="32" y="40" fill="#172b3a" font-size="24" font-family="Arial, sans-serif" text-anchor="start" font-weight="600">Clearer questions, unchanged model</text>
+  <text x="32" y="67" fill="#526374" font-size="16" font-family="Arial, sans-serif" text-anchor="start" font-weight="400">42-question development pilot · no fine-tuning</text>
+  <text x="32" y="110" fill="#172b3a" font-size="16" font-family="Arial, sans-serif" text-anchor="start" font-weight="400">Original wording</text>
+  <text x="768" y="110" fill="#172b3a" font-size="16" font-family="Arial, sans-serif" text-anchor="end" font-weight="400">38/42  |  90.5%</text>
+  <rect x="32" y="122" width="736" height="25" fill="#edf1f4" />
+  <rect x="32" y="122" width="665.9047619047619" height="25" fill="#64748b" />
+  <text x="32" y="187" fill="#172b3a" font-size="16" font-family="Arial, sans-serif" text-anchor="start" font-weight="400">Clarified range wording</text>
+  <text x="768" y="187" fill="#172b3a" font-size="16" font-family="Arial, sans-serif" text-anchor="end" font-weight="400">41/42  |  97.6%</text>
+  <rect x="32" y="199" width="736" height="25" fill="#edf1f4" />
+  <rect x="32" y="199" width="718.4761904761905" height="25" fill="#64748b" />
+  <text x="32.0" y="248" fill="#526374" font-size="14" font-family="Arial, sans-serif" text-anchor="start" font-weight="400">0%</text>
+  <text x="216.0" y="248" fill="#526374" font-size="14" font-family="Arial, sans-serif" text-anchor="middle" font-weight="400">25%</text>
+  <text x="400.0" y="248" fill="#526374" font-size="14" font-family="Arial, sans-serif" text-anchor="middle" font-weight="400">50%</text>
+  <text x="584.0" y="248" fill="#526374" font-size="14" font-family="Arial, sans-serif" text-anchor="middle" font-weight="400">75%</text>
+  <text x="768.0" y="248" fill="#526374" font-size="14" font-family="Arial, sans-serif" text-anchor="end" font-weight="400">100%</text>
+  <text x="400" y="275" fill="#526374" font-size="16" font-family="Arial, sans-serif" text-anchor="middle" font-weight="400">SQL execution accuracy · higher is better</text>
+  <text x="32" y="316" fill="#172b3a" font-size="16" font-family="Arial, sans-serif" text-anchor="start" font-weight="400">Pilot and final test contain different questions.</text>
+</svg>

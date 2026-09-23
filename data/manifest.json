@@ -1,0 +1,24 @@
+{
+  "fixtures": [
+    "orders_boundaries.db",
+    "orders_mixed.db",
+    "orders_sparse.db"
+  ],
+  "query_families": [
+    "amount_ge",
+    "amount_gt",
+    "amount_le",
+    "amount_lt",
+    "amount_range",
+    "country_amount_gt",
+    "country_eq"
+  ],
+  "schema": "CREATE TABLE orders (\n    id INTEGER PRIMARY KEY,\n    country TEXT,\n    amount REAL\n);",
+  "seed": 20260830,
+  "splits": {
+    "pilot": 42,
+    "test": 84,
+    "train": 196,
+    "validation": 56
+  }
+}

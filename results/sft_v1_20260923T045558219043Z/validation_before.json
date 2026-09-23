@@ -1,0 +1,286 @@
+{
+  "loss": 0.18953456869076568,
+  "scored_tokens": 855,
+  "examples": [
+    {
+      "id": "validation_country_eq_004",
+      "loss": 0.3001069724559784,
+      "scored_tokens": 12
+    },
+    {
+      "id": "validation_amount_le_007",
+      "loss": 0.19422481954097748,
+      "scored_tokens": 14
+    },
+    {
+      "id": "validation_amount_range_005",
+      "loss": 0.30212488770484924,
+      "scored_tokens": 20
+    },
+    {
+      "id": "validation_amount_ge_001",
+      "loss": 0.3012703061103821,
+      "scored_tokens": 14
+    },
+    {
+      "id": "validation_amount_ge_005",
+      "loss": 0.2938937544822693,
+      "scored_tokens": 14
+    },
+    {
+      "id": "validation_country_amount_gt_004",
+      "loss": 0.11091381311416626,
+      "scored_tokens": 20
+    },
+    {
+      "id": "validation_amount_le_005",
+      "loss": 0.2176150530576706,
+      "scored_tokens": 14
+    },
+    {
+      "id": "validation_amount_ge_002",
+      "loss": 0.10228817164897919,
+      "scored_tokens": 14
+    },
+    {
+      "id": "validation_country_amount_gt_008",
+      "loss": 0.16448040306568146,
+      "scored_tokens": 19
+    },
+    {
+      "id": "validation_amount_lt_003",
+      "loss": 0.2541852593421936,
+      "scored_tokens": 13
+    },
+    {
+      "id": "validation_country_eq_002",
+      "loss": 0.2585243284702301,
+      "scored_tokens": 12
+    },
+    {
+      "id": "validation_amount_le_004",
+      "loss": 0.17191331088542938,
+      "scored_tokens": 14
+    },
+    {
+      "id": "validation_amount_range_003",
+      "loss": 0.3003098964691162,
+      "scored_tokens": 21
+    },
+    {
+      "id": "validation_amount_le_008",
+      "loss": 0.2162541002035141,
+      "scored_tokens": 14
+    },
+    {
+      "id": "validation_amount_gt_005",
+      "loss": 0.1453493982553482,
+      "scored_tokens": 14
+    },
+    {
+      "id": "validation_country_eq_005",
+      "loss": 0.17364448308944702,
+      "scored_tokens": 12
+    },
+    {
+      "id": "validation_amount_lt_007",
+      "loss": 0.14876794815063477,
+      "scored_tokens": 13
+    },
+    {
+      "id": "validation_amount_le_006",
+      "loss": 0.2374216765165329,
+      "scored_tokens": 13
+    },
+    {
+      "id": "validation_country_eq_008",
+      "loss": 0.2703627943992615,
+      "scored_tokens": 12
+    },
+    {
+      "id": "validation_amount_gt_002",
+      "loss": 0.1129450649023056,
+      "scored_tokens": 14
+    },
+    {
+      "id": "validation_amount_gt_001",
+      "loss": 0.11914016306400299,
+      "scored_tokens": 14
+    },
+    {
+      "id": "validation_amount_ge_006",
+      "loss": 0.28569260239601135,
+      "scored_tokens": 14
+    },
+    {
+      "id": "validation_country_amount_gt_002",
+      "loss": 0.12560586631298065,
+      "scored_tokens": 20
+    },
+    {
+      "id": "validation_amount_range_001",
+      "loss": 0.18958957493305206,
+      "scored_tokens": 20
+    },
+    {
+      "id": "validation_amount_range_007",
+      "loss": 0.3129064440727234,
+      "scored_tokens": 20
+    },
+    {
+      "id": "validation_amount_range_004",
+      "loss": 0.2111682891845703,
+      "scored_tokens": 21
+    },
+    {
+      "id": "validation_amount_lt_001",
+      "loss": 0.15369728207588196,
+      "scored_tokens": 13
+    },
+    {
+      "id": "validation_amount_ge_004",
+      "loss": 0.10231052339076996,
+      "scored_tokens": 13
+    },
+    {
+      "id": "validation_amount_range_008",
+      "loss": 0.2024993896484375,
+      "scored_tokens": 20
+    },
+    {
+      "id": "validation_amount_ge_008",
+      "loss": 0.11154752224683762,
+      "scored_tokens": 14
+    },
+    {
+      "id": "validation_country_amount_gt_005",
+      "loss": 0.1316315233707428,
+      "scored_tokens": 20
+    },
+    {
+      "id": "validation_amount_le_002",
+      "loss": 0.21693798899650574,
+      "scored_tokens": 13
+    },
+    {
+      "id": "validation_amount_range_002",
+      "loss": 0.23366817831993103,
+      "scored_tokens": 20
+    },
+    {
+      "id": "validation_country_amount_gt_006",
+      "loss": 0.1196305975317955,
+      "scored_tokens": 20
+    },
+    {
+      "id": "validation_country_eq_007",
+      "loss": 0.3085611164569855,
+      "scored_tokens": 12
+    },
+    {
+      "id": "validation_amount_lt_002",
+      "loss": 0.0996706634759903,
+      "scored_tokens": 14
+    },
+    {
+      "id": "validation_country_amount_gt_001",
+      "loss": 0.1487344354391098,
+      "scored_tokens": 19
+    },
+    {
+      "id": "validation_amount_lt_004",
+      "loss": 0.11641395092010498,
+      "scored_tokens": 14
+    },
+    {
+      "id": "validation_amount_lt_008",
+      "loss": 0.09480763226747513,
+      "scored_tokens": 14
+    },
+    {
+      "id": "validation_amount_ge_007",
+      "loss": 0.10053396224975586,
+      "scored_tokens": 14
+    },
+    {
+      "id": "validation_amount_gt_008",
+      "loss": 0.10386311262845993,
+      "scored_tokens": 13
+    },
+    {
+      "id": "validation_amount_gt_007",
+      "loss": 0.17758506536483765,
+      "scored_tokens": 13
+    },
+    {
+      "id": "validation_amount_ge_003",
+      "loss": 0.09132470190525055,
+      "scored_tokens": 14
+    },
+    {
+      "id": "validation_amount_le_003",
+      "loss": 0.17797793447971344,
+      "scored_tokens": 14
+    },
+    {
+      "id": "validation_country_amount_gt_007",
+      "loss": 0.13307993113994598,
+      "scored_tokens": 20
+    },
+    {
+      "id": "validation_amount_lt_005",
+      "loss": 0.23063434660434723,
+      "scored_tokens": 14
+    },
+    {
+      "id": "validation_amount_range_006",
+      "loss": 0.30192020535469055,
+      "scored_tokens": 20
+    },
+    {
+      "id": "validation_amount_gt_004",
+      "loss": 0.16588260233402252,
+      "scored_tokens": 13
+    },
+    {
+      "id": "validation_amount_lt_006",
+      "loss": 0.12695065140724182,
+      "scored_tokens": 14
+    },
+    {
+      "id": "validation_country_eq_003",
+      "loss": 0.35325413942337036,
+      "scored_tokens": 13
+    },
+    {
+      "id": "validation_amount_gt_006",
+      "loss": 0.11751879751682281,
+      "scored_tokens": 14
+    },
+    {
+      "id": "validation_amount_gt_003",
+      "loss": 0.15386554598808289,
+      "scored_tokens": 13
+    },
+    {
+      "id": "validation_amount_le_001",
+      "loss": 0.21725371479988098,
+      "scored_tokens": 13
+    },
+    {
+      "id": "validation_country_eq_001",
+      "loss": 0.18620403110980988,
+      "scored_tokens": 12
+    },
+    {
+      "id": "validation_country_amount_gt_003",
+      "loss": 0.141386479139328,
+      "scored_tokens": 21
+    },
+    {
+      "id": "validation_country_eq_006",
+      "loss": 0.2878086268901825,
+      "scored_tokens": 12
+    }
+  ]
+}

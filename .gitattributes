@@ -1,0 +1,3 @@
+# Preserve exact artifact bytes across platforms; run metadata contains SHA-256 hashes.
+# Do not rewrite line endings automatically on checkout or commit.
+* -text

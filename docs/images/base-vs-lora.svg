@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 340" width="800" height="340" role="img" aria-labelledby="title desc">
+  <title id="title">LoRA improved final-test accuracy</title>
+  <desc id="desc">Base model: 63/84, 75.0%; LoRA SFT: 70/84, 83.3%. +8.3 percentage points · 11 fixes / 4 regressions</desc>
+  <rect width="800" height="340" fill="#ffffff" />
+  <text x="32" y="40" fill="#172b3a" font-size="24" font-family="Arial, sans-serif" text-anchor="start" font-weight="600">LoRA improved final-test accuracy</text>
+  <text x="32" y="67" fill="#526374" font-size="16" font-family="Arial, sans-serif" text-anchor="start" font-weight="400">Same 84 questions · validation-selected adapter</text>
+  <text x="32" y="110" fill="#172b3a" font-size="16" font-family="Arial, sans-serif" text-anchor="start" font-weight="400">Base model</text>
+  <text x="768" y="110" fill="#172b3a" font-size="16" font-family="Arial, sans-serif" text-anchor="end" font-weight="400">63/84  |  75.0%</text>
+  <rect x="32" y="122" width="736" height="25" fill="#edf1f4" />
+  <rect x="32" y="122" width="552.0" height="25" fill="#64748b" />
+  <text x="32" y="187" fill="#172b3a" font-size="16" font-family="Arial, sans-serif" text-anchor="start" font-weight="400">LoRA SFT</text>
+  <text x="768" y="187" fill="#172b3a" font-size="16" font-family="Arial, sans-serif" text-anchor="end" font-weight="400">70/84  |  83.3%</text>
+  <rect x="32" y="199" width="736" height="25" fill="#edf1f4" />
+  <rect x="32" y="199" width="613.3333333333334" height="25" fill="#0f766e" />
+  <text x="32.0" y="248" fill="#526374" font-size="14" font-family="Arial, sans-serif" text-anchor="start" font-weight="400">0%</text>
+  <text x="216.0" y="248" fill="#526374" font-size="14" font-family="Arial, sans-serif" text-anchor="middle" font-weight="400">25%</text>
+  <text x="400.0" y="248" fill="#526374" font-size="14" font-family="Arial, sans-serif" text-anchor="middle" font-weight="400">50%</text>
+  <text x="584.0" y="248" fill="#526374" font-size="14" font-family="Arial, sans-serif" text-anchor="middle" font-weight="400">75%</text>
+  <text x="768.0" y="248" fill="#526374" font-size="14" font-family="Arial, sans-serif" text-anchor="end" font-weight="400">100%</text>
+  <text x="400" y="275" fill="#526374" font-size="16" font-family="Arial, sans-serif" text-anchor="middle" font-weight="400">SQL execution accuracy · higher is better</text>
+  <text x="32" y="316" fill="#172b3a" font-size="16" font-family="Arial, sans-serif" text-anchor="start" font-weight="400">+8.3 percentage points · 11 fixes / 4 regressions</text>
+</svg>

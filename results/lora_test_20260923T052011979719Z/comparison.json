@@ -1,0 +1,291 @@
+{
+  "base_run": "C:\\Users\\sahil\\Desktop\\Learning\\Post_Training\\results\\base_test_20260923T051755848526Z",
+  "lora_run": "C:\\Users\\sahil\\Desktop\\Learning\\Post_Training\\results\\lora_test_20260923T052011979719Z",
+  "settings_match": true,
+  "total": 84,
+  "base_correct": 63,
+  "lora_correct": 70,
+  "accuracy_change_percentage_points": 8.333333333333337,
+  "paired_outcomes": {
+    "fixed": 11,
+    "both_correct": 59,
+    "both_wrong": 10,
+    "regression": 4
+  },
+  "changes_and_remaining_errors": [
+    {
+      "id": "test_amount_le_008",
+      "category": "fixed",
+      "question": "What purchases stay within a maximum of 25?",
+      "reference_sql": "SELECT * FROM orders WHERE amount <= 25;",
+      "base_sql": "SELECT id, country FROM orders WHERE amount <= 25",
+      "lora_sql": "SELECT * FROM orders WHERE amount <= 25;"
+    },
+    {
+      "id": "test_amount_le_010",
+      "category": "fixed",
+      "question": "What purchases stay within a maximum of 150?",
+      "reference_sql": "SELECT * FROM orders WHERE amount <= 150;",
+      "base_sql": "SELECT id, country FROM orders WHERE amount <= 150",
+      "lora_sql": "SELECT * FROM orders WHERE amount <= 150;"
+    },
+    {
+      "id": "test_amount_ge_012",
+      "category": "both_wrong",
+      "question": "Retrieve orders not below 150.",
+      "reference_sql": "SELECT * FROM orders WHERE amount >= 150;",
+      "base_sql": "SELECT * FROM orders WHERE amount NOT BETWEEN 150 AND 151",
+      "lora_sql": "SELECT * FROM orders WHERE amount <= 150;"
+    },
+    {
+      "id": "test_amount_le_006",
+      "category": "regression",
+      "question": "Find orders with amounts equal to or below 50.",
+      "reference_sql": "SELECT * FROM orders WHERE amount <= 50;",
+      "base_sql": "SELECT * FROM orders WHERE amount <= 50",
+      "lora_sql": "SELECT * FROM orders WHERE amount >= 50;"
+    },
+    {
+      "id": "test_amount_lt_009",
+      "category": "both_wrong",
+      "question": "Find orders whose amount does not reach 125.",
+      "reference_sql": "SELECT * FROM orders WHERE amount < 125;",
+      "base_sql": "SELECT * FROM orders WHERE amount NOT BETWEEN 125 AND 125",
+      "lora_sql": "SELECT * FROM orders WHERE amount != 125;"
+    },
+    {
+      "id": "test_amount_ge_007",
+      "category": "both_wrong",
+      "question": "Retrieve orders not below 50.",
+      "reference_sql": "SELECT * FROM orders WHERE amount >= 50;",
+      "base_sql": "SELECT * FROM orders WHERE amount NOT BETWEEN 50 AND 100",
+      "lora_sql": "SELECT * FROM orders WHERE amount <= 50;"
+    },
+    {
+      "id": "test_amount_lt_001",
+      "category": "both_wrong",
+      "question": "Find orders whose amount does not reach 500.",
+      "reference_sql": "SELECT * FROM orders WHERE amount < 500;",
+      "base_sql": "SELECT * FROM orders WHERE amount NOT BETWEEN 500 AND 500",
+      "lora_sql": "SELECT * FROM orders WHERE amount != 500;"
+    },
+    {
+      "id": "test_amount_le_007",
+      "category": "fixed",
+      "question": "Retrieve orders not above 500.",
+      "reference_sql": "SELECT * FROM orders WHERE amount <= 500;",
+      "base_sql": "SELECT * FROM orders WHERE amount NOT BETWEEN 501 AND 500",
+      "lora_sql": "SELECT * FROM orders WHERE amount <= 500;"
+    },
+    {
+      "id": "test_country_eq_012",
+      "category": "fixed",
+      "question": "What purchases were made in Japan?",
+      "reference_sql": "SELECT * FROM orders WHERE country = 'Japan';",
+      "base_sql": "SELECT amount FROM orders WHERE country = 'Japan'",
+      "lora_sql": "SELECT * FROM orders WHERE country = 'Japan';"
+    },
+    {
+      "id": "test_amount_ge_002",
+      "category": "both_wrong",
+      "question": "Retrieve orders not below 125.",
+      "reference_sql": "SELECT * FROM orders WHERE amount >= 125;",
+      "base_sql": "SELECT * FROM orders WHERE amount NOT BETWEEN 125 AND 125",
+      "lora_sql": "SELECT * FROM orders WHERE amount <= 125;"
+    },
+    {
+      "id": "test_amount_lt_003",
+      "category": "both_wrong",
+      "question": "Find orders whose amount does not reach 75.",
+      "reference_sql": "SELECT * FROM orders WHERE amount < 75;",
+      "base_sql": "SELECT * FROM orders WHERE amount NOT BETWEEN 75 AND 75",
+      "lora_sql": "SELECT * FROM orders WHERE amount != 75;"
+    },
+    {
+      "id": "test_amount_lt_002",
+      "category": "both_wrong",
+      "question": "Find orders whose amount does not reach 150.",
+      "reference_sql": "SELECT * FROM orders WHERE amount < 150;",
+      "base_sql": "SELECT * FROM orders WHERE amount NOT BETWEEN 150 AND 150",
+      "lora_sql": "SELECT * FROM orders WHERE amount != 150;"
+    },
+    {
+      "id": "test_country_eq_007",
+      "category": "fixed",
+      "question": "What purchases were made in Brazil?",
+      "reference_sql": "SELECT * FROM orders WHERE country = 'Brazil';",
+      "base_sql": "SELECT amount FROM orders WHERE country = 'Brazil'",
+      "lora_sql": "SELECT * FROM orders WHERE country = 'Brazil';"
+    },
+    {
+      "id": "test_country_eq_010",
+      "category": "fixed",
+      "question": "What purchases were made in Canada?",
+      "reference_sql": "SELECT * FROM orders WHERE country = 'Canada';",
+      "base_sql": "SELECT amount FROM orders WHERE country = 'Canada'",
+      "lora_sql": "SELECT * FROM orders WHERE country = 'Canada';"
+    },
+    {
+      "id": "test_amount_le_011",
+      "category": "regression",
+      "question": "Find orders with amounts equal to or below 75.",
+      "reference_sql": "SELECT * FROM orders WHERE amount <= 75;",
+      "base_sql": "SELECT * FROM orders WHERE amount <= 75",
+      "lora_sql": "SELECT * FROM orders WHERE amount >= 75;"
+    },
+    {
+      "id": "test_amount_ge_010",
+      "category": "both_wrong",
+      "question": "Retrieve orders not below 75.",
+      "reference_sql": "SELECT * FROM orders WHERE amount >= 75;",
+      "base_sql": "SELECT * FROM orders WHERE amount NOT BETWEEN 75 AND 100",
+      "lora_sql": "SELECT * FROM orders WHERE amount <= 75;"
+    },
+    {
+      "id": "test_amount_le_009",
+      "category": "regression",
+      "question": "Find orders with amounts equal to or below 100.",
+      "reference_sql": "SELECT * FROM orders WHERE amount <= 100;",
+      "base_sql": "SELECT * FROM orders WHERE amount <= 100",
+      "lora_sql": "SELECT * FROM orders WHERE amount >= 100;"
+    },
+    {
+      "id": "test_amount_le_012",
+      "category": "fixed",
+      "question": "What purchases stay within a maximum of 500?",
+      "reference_sql": "SELECT * FROM orders WHERE amount <= 500;",
+      "base_sql": "SELECT id, country FROM orders WHERE amount <= 500",
+      "lora_sql": "SELECT * FROM orders WHERE amount <= 500;"
+    },
+    {
+      "id": "test_amount_le_002",
+      "category": "fixed",
+      "question": "Retrieve orders not above 75.",
+      "reference_sql": "SELECT * FROM orders WHERE amount <= 75;",
+      "base_sql": "SELECT * FROM orders WHERE amount NOT BETWEEN 75 AND 100",
+      "lora_sql": "SELECT * FROM orders WHERE amount <= 75;"
+    },
+    {
+      "id": "test_amount_ge_005",
+      "category": "both_wrong",
+      "question": "Retrieve orders not below 200.",
+      "reference_sql": "SELECT * FROM orders WHERE amount >= 200;",
+      "base_sql": "SELECT * FROM orders WHERE amount NOT BETWEEN 201 AND 200",
+      "lora_sql": "SELECT * FROM orders WHERE amount <= 200;"
+    },
+    {
+      "id": "test_amount_le_004",
+      "category": "fixed",
+      "question": "What purchases stay within a maximum of 125?",
+      "reference_sql": "SELECT * FROM orders WHERE amount <= 125;",
+      "base_sql": "SELECT id, country FROM orders WHERE amount <= 125",
+      "lora_sql": "SELECT * FROM orders WHERE amount <= 125;"
+    },
+    {
+      "id": "test_amount_le_003",
+      "category": "regression",
+      "question": "Find orders with amounts equal to or below 150.",
+      "reference_sql": "SELECT * FROM orders WHERE amount <= 150;",
+      "base_sql": "SELECT * FROM orders WHERE amount <= 150",
+      "lora_sql": "SELECT * FROM orders WHERE amount >= 150;"
+    },
+    {
+      "id": "test_country_eq_003",
+      "category": "fixed",
+      "question": "What purchases were made in France?",
+      "reference_sql": "SELECT * FROM orders WHERE country = 'France';",
+      "base_sql": "SELECT amount FROM orders WHERE country = 'France'",
+      "lora_sql": "SELECT * FROM orders WHERE country = 'France';"
+    },
+    {
+      "id": "test_amount_lt_012",
+      "category": "both_wrong",
+      "question": "Find orders whose amount does not reach 100.",
+      "reference_sql": "SELECT * FROM orders WHERE amount < 100;",
+      "base_sql": "SELECT * FROM orders WHERE amount NOT BETWEEN 100 AND 100",
+      "lora_sql": "SELECT * FROM orders WHERE amount != 100;"
+    },
+    {
+      "id": "test_amount_le_001",
+      "category": "fixed",
+      "question": "Retrieve orders not above 25.",
+      "reference_sql": "SELECT * FROM orders WHERE amount <= 25;",
+      "base_sql": "SELECT * FROM orders WHERE amount NOT BETWEEN 26 AND 25",
+      "lora_sql": "SELECT * FROM orders WHERE amount <= 25;"
+    }
+  ],
+  "base_by_family": {
+    "amount_ge": {
+      "correct": 7,
+      "total": 12,
+      "accuracy": 0.5833333333333334
+    },
+    "amount_gt": {
+      "correct": 12,
+      "total": 12,
+      "accuracy": 1.0
+    },
+    "amount_le": {
+      "correct": 5,
+      "total": 12,
+      "accuracy": 0.4166666666666667
+    },
+    "amount_lt": {
+      "correct": 7,
+      "total": 12,
+      "accuracy": 0.5833333333333334
+    },
+    "amount_range": {
+      "correct": 12,
+      "total": 12,
+      "accuracy": 1.0
+    },
+    "country_amount_gt": {
+      "correct": 12,
+      "total": 12,
+      "accuracy": 1.0
+    },
+    "country_eq": {
+      "correct": 8,
+      "total": 12,
+      "accuracy": 0.6666666666666666
+    }
+  },
+  "lora_by_family": {
+    "amount_ge": {
+      "correct": 7,
+      "total": 12,
+      "accuracy": 0.5833333333333334
+    },
+    "amount_gt": {
+      "correct": 12,
+      "total": 12,
+      "accuracy": 1.0
+    },
+    "amount_le": {
+      "correct": 8,
+      "total": 12,
+      "accuracy": 0.6666666666666666
+    },
+    "amount_lt": {
+      "correct": 7,
+      "total": 12,
+      "accuracy": 0.5833333333333334
+    },
+    "amount_range": {
+      "correct": 12,
+      "total": 12,
+      "accuracy": 1.0
+    },
+    "country_amount_gt": {
+      "correct": 12,
+      "total": 12,
+      "accuracy": 1.0
+    },
+    "country_eq": {
+      "correct": 12,
+      "total": 12,
+      "accuracy": 1.0
+    }
+  }
+}
