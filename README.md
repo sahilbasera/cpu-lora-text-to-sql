@@ -173,4 +173,6 @@ To inspect the initial development stage, `evaluate.py` defaults to the pilot sp
 
 Read [the training mechanics](docs/TRAINING_WALKTHROUGH.md) and [the full training loop](docs/FULL_TRAINING_WALKTHROUGH.md) for deeper explanations.
 
-The downloaded model includes its upstream license. No license for this repository's code has been selected yet; choose one before presenting the repository as open-source software.
+## License
+
+This project's original code and associated documentation are licensed under the [MIT License](LICENSE). Downloaded model weights and third-party dependencies remain subject to their respective upstream licenses.
